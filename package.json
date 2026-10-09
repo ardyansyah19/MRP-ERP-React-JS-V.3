@@ -1,0 +1,1 @@
+{"name":"mrp-erp","private":true,"scripts":{"install:all":"npm i && npm i --prefix server && npm i --prefix client","dev":"concurrently -n API,WEB \"npm run dev --prefix server\" \"npm run dev --prefix client\""},"devDependencies":{"concurrently":"^8.2.2"}}
